@@ -4,7 +4,7 @@ import SimplePeer from 'simple-peer';
 import * as faceapi from 'face-api.js';
 import { v4 as uuidv4 } from 'uuid';
 
-const SIGNALING_SERVER_URL = 'https://livemeet-ribm.onrender.com' || 'https://localhost:3000';
+const SIGNALING_SERVER_URL = 'https://livemeetpro.onrender.com' || 'https://localhost:3000';
 
 class ErrorBoundary extends React.Component {
   state = { hasError: false };

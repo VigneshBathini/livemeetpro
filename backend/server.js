@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
 
 // CORS config
 app.use(cors({
-  origin: ['https://livemeet-ribm.onrender.com', 'http://localhost:3000'],
+  origin: ['https://livemeetpro.onrender.com', 'http://localhost:3000'],
   methods: ['GET', 'POST'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization']
@@ -20,7 +20,7 @@ app.use(cors({
 
 const io = new Server(server, {
   cors: {
-    origin: ['https://livemeet-ribm.onrender.com', 'http://localhost:3000'],
+    origin: ['https://livemeetpro.onrender.com', 'http://localhost:3000'],
     methods: ['GET', 'POST'],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization']
